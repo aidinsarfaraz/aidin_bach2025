@@ -1,0 +1,21 @@
+# Params
+img_name = "028897"
+img_path = f"./img_separate/{img_name}_RIGHT.jpg"
+img_path_full = f"../../GEUS_data/3644593399_RIGHT/{img_name}_RIGHT.jpg"
+folder_path_originals = "../../GEUS_data/3644593399_RIGHT/"
+folder_path_segs = "../../segmentation_vandstand/results/segs_vandstand/"
+save_to_folder = "SIFT/img_highlighted_pixels/"
+save_to_folder_vis = "../SIFT/img_highlighted_subarray/"
+pivot_pix_folder = "../SIFT/pivot_pix_data/"
+x_coord1 = 682
+x_coord2 = 611
+x_coord3 = 471
+x_coord4 = 378
+x_coords_params = [x_coord1, x_coord2, x_coord3, x_coord4]
+center_y1 = 1685
+center_y2 = 1682
+center_y3 = 1674
+center_y4 = 1676
+center_ys_params = [center_y1, center_y2, center_y3, center_y4]
+window_size_params = 10
+threshold_params = 35
